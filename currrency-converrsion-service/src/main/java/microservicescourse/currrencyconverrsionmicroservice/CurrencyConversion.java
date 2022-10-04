@@ -11,6 +11,9 @@ public class CurrencyConversion {
   private BigDecimal totalCalculatedAmount;
   private String environment;
 
+  public CurrencyConversion() {
+  }
+
   public CurrencyConversion(Long id,
                             String from,
                             String to,
